@@ -6,14 +6,14 @@ This is a basic debian (wheezy) docker image with cUrl and wget installed
 == Image Tag/Name
 The image tag/name will be
 ....
-classicdriver/base-debian-wheezy
+classicdriver/debian-wheezy-base
 ....
 
 == How to build this image
 . Clone the Git repository
 +
 ....
-git clone http://<git.host>/docker-base-debian-wheezy.git
+git clone http://<git.host>/docker-debian-wheezy-base.git
 ....
 . Browse to the parent folder of the cloned repository
 +
@@ -23,7 +23,7 @@ cd <parent-folder>
 . Build the docker image with the command
 +
 ....
-docker build --rm=true --tag=classicdriver/base-debian-wheezy docker-base-debian-wheezy/.
+docker build --rm=true --tag=classicdriver/debian-wheezy-base docker-debian-wheezy-base/.
 ....
 . List all the available images
 +
@@ -34,7 +34,7 @@ There should be an image named *classicdriver/debian-wheezy-base*
 . Test the docker image by running the command
 +
 ....
-docker run -it --rm=true classicdriver/base-debian-wheezy /bin/bash
+docker run -it --rm=true classicdriver/debian-wheezy-base /bin/bash
 ....
 . The console will be attached to the running container
 . Run the following command
