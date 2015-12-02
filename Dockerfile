@@ -2,7 +2,7 @@
 # ClassicDriver Base Docker image with cUrl and wget (installed)
 ##########################################################################################
 
-FROM debian:wheezy
+FROM debian:jessie
 
 MAINTAINER Team Nitrous <nitrous@classicdriver.com>
 
